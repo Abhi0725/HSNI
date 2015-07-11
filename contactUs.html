@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Hwaseung Network India | Home</title>
+<!--[if IE]><style>
+#navi-bar ul li:hover > ul{
+list-style-type:none;
+position:absolute;
+display:inline-table;
+left:310px;
+top:20px;
+}
+</style><![endif]-->
+<link rel="stylesheet" type="text/css" href="StyleFile.css" />
+<script type="text/javascript">
+function validateForm(){
+var coName=document.forms["ContactForm"]["companyName"].value;
+if(coName=null || coName=""){
+ alert("Please Fill Company Name")
+ return false
+}
+var email=document.forms["ContactForm"]["email"].value;
+var atpos=email.indexOf("@");
+var dotpos=email.lastIndexOf(".");
+if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
+  {
+  alert("Not a valid e-mail address");
+  return false;
+  }
+}
+var number=document.forms["ContactForm"]["number"].value;
+if(NaN(number)){
+ alert("Please enter a valid Contact number");
+ return false;
+ }
+
+var CompanyAdd=document.forms["ContactForm"]["CompanyAdd"].value;
+if(CompanyAdd=null || CompanyAdd=""){
+ alert("Please fill Company Address");
+ return false;
+ }
+var specification=document.forms["ContactForm"]["specification"].value;
+if(specification=null || specification=""){
+ alert("Please select a specification");
+ return false;
+ }
+var Description=document.forms["ContactForm"]["Description"].value;
+if(Description=null || Description=""){
+ alert("Please give a brief description");
+ return false;
+ }
+var Application=document.forms["ContactForm"]["Application"].value;
+if(Application=null || Application=""){
+ alert("Please fill Application field");
+ return false;
+ }
+var quanty=document.forms["ContactForm"]["quanty"].value;
+if(quanty=null || quanty=""){
+ alert("Please fill quantity required");
+ return false;
+}
+}
+</script>
+
+</head>
+
+<body>
+<div id="main-content">
+<div id="top-bar">
+<div id="name-text">
+<a href="index.html" style="border:none"><img src="img/name-img.jpg" /></a>
+</div>
+<div id="logo-div">
+<img src="img/Logo.jpg" alt="company-logo" />
+</div>
+</div>
+<div id="deco-img">
+<img src="img/BottomLine.png" alt="deco-img"/>
+</div>
+
+<!--menu start-->
+
+<div id="navi-bar">
+<ul>
+    <li><a href="index.html">HOME</a></li>
+	<li><a href="AboutUs.html">ABOUT US</a></li>
+	<li><a href="#">KEY BUSINESSES</a>
+	    <ul>
+		   <li><a href="MetalTrading.html">Metal Products&nbsp; | &nbsp;</a></li>
+			<li><a href="PolymerAndChemicals.html">&nbsp; Polymers &amp; Chemicals&nbsp; | &nbsp;</a></li>
+			<li><a href="AutomotiveProducts.html">&nbsp; Automotive Products&nbsp; | &nbsp;</a></li>
+			<li><a href="OtherBusinesses.html">&nbsp; Other Business</a></li>
+		</ul>
+	
+	</li>
+	<li><a href="contactUs.html">CONTACT US</a></li>
+	<li><a href="SiteMap.html">SITE MAP</a></li>
+</ul>
+</div>
+<img src="img/Top Thin Line.png" style="margin-top:15px;" width="1354px" />
+
+<div id="contact-box">
+
+<div id="contact-heading">
+H S NETWORK (INDIA) PVT. LTD.
+</div>
+
+<div id="contact-box-mini">
+<span class="contact-mini-head">Head Quarter</span>
+<p class="contact-mini-text">
+Survey No. 73, "A" Block 100<br />
+Thandalam Post<br />
+Mevalurkuppam, Sriperurmbudur Taluk,<br />
+Kancheepuram Dist- 602 105<br />
+Tamil Nadu, INDIA<br />
+Tel.: (Gen) 044-2681-0001-5<br />
+Fax: 044-2681-1899<br />
+Website: www.hsiauto.com<br />
+         www.hsrna.com
+</p>
+</div>
+
+<div class="contact-vertical-line"></div>
+
+<div id="contact-box-mini">
+<span class="contact-mini-head">Marketing Office</span>
+<p class="contact-mini-text">
+237, SRS Tower<br />
+14/5, Mathura Road.<br />
+Faridabad- 121003<br />
+Haryana, INDIA<br />
+Mobile : +91 9811135678<br />
+E-mail: hsni.sx@gmail.com<br />
+</p>
+</div>
+
+
+<div class="contact-vertical-line"></div>
+
+<div id="contact-box-mini">
+<form method="post" name="ContactForm" action="mail.php" onsubmit="return validateForm();">
+<fieldset>
+<legend style="font-size:20px; margin-bottom:15px;"><strong>Contact us by filling the form</strong></legend>
+<label for="companyName">Company Name:</label> <input type="text" name="companyName" id="companyName" placeholder="Fillout Company Name"/><br /><br />
+<label for="email">Email id:</label> <input type="email" name="email" id="email" placeholder="Enter your E-mail Id" /><br /><br />
+<label for="number">Contact No.:</label> <input type="number" name="number" id="number" placeholder="Enter your Contact number" /><br /><br />
+<label for="CompanyAdd">Company Address:</label> <textarea name="CompanyAdd" id="CompanyAdd" rows="4" cols="20"></textarea><br /><br />
+<label for="specification">Specification:</label> <select name="specification" id="specification">
+                  <option value="">Select</option>
+		  <option value="Polymer">Polymer</option>
+		  <option value="Shore-A-Hardness">Shore A Hardness</option>
+		  <option value="Tensile">Tensile</option>
+		  <option value="Compression-set">Compression Set</option>
+		  <option value="Test-Condition">Test Condition</option>
+		  </select><br /><br />
+<label for="Description">Description:</label> <textarea name="Description" id="Description" rows="4" cols="20"></textarea><br /><br />
+<label for="Application">Application:</label> <input type="text" name="Application" id="Application"/><br /><br />
+<label for="quanty">Quantity Required:</label> <input type="text" name="quanty" id="quanty" /> <br /><br />
+<input type="submit" name="Mail" value="Send" class="button" style="float:right">
+</fieldset>
+</form>
+</div>
+
+</div>
+
+<div id="bottom-bar">
+<img src="img/BottomLine.png"/>
+<ul>
+    <li><a href="index.html">HOME</a></li>
+	<li><a href="AboutUs.html">ABOUT US</a></li>
+	<li><a href="#">KEY BUSINESSES</a>
+	   <ul>
+		    <li><a href="MetalTrading.html">Metal Products&nbsp; | &nbsp;</a></li>
+			<li><a href="PolymerAndChemicals.html">&nbsp; Polymers &amp; Chemicals&nbsp; | &nbsp;</a></li>
+			<li><a href="AutomotiveProducts.html">&nbsp; Automotive Products&nbsp; | &nbsp;</a></li>
+			<li><a href="OtherBusinesses.html">&nbsp; Other Business</a></li>
+		</ul>
+	</li>
+	<li><a href="contactUs.html">CONTACT US</a></li>
+	<li><a href="SiteMap.html">SITE MAP</a></li>
+</ul>
+</div>
+
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,549 @@
+body{
+font-family:Calibri;
+margin:auto;
+}
+
+::-webkit-scrollbar {  
+    width: 12px;  
+}  
+::-webkit-scrollbar-track {  
+    background-color: #eaeaea;  
+    border-left: 1px solid #ccc;  
+}  
+::-webkit-scrollbar-thumb {  
+    background-color: #ccc;  
+}  
+::-webkit-scrollbar-thumb:hover {  
+    background-color: #999;  
+}  
+
+#main-content{
+width:1354px;
+margin:auto;
+}
+
+#top-bar{
+height:70px;
+}
+
+#name-text{
+margin:30px auto 0 21px;
+float:left;
+}
+
+#name-text img{
+height:22px;
+width:315px;
+border:none;
+}
+
+#logo-div{
+float:right;
+height:60px;
+width:110px;
+margin:10px 110px 0px auto;
+}
+
+#logo-div img{
+height:60px;
+width:110px;
+}
+
+#deco-img{
+width:1354px;
+}
+
+#deco-img img{
+width:1354px;
+height:60px;
+margin-top:-10px;
+}
+
+#navi-bar{
+margin-top:-25px;
+}
+
+#navi-bar ul{
+list-style-type:none;
+position:relative;
+display:inline-table;
+}
+
+#navi-bar ul li{
+float:left;
+margin:0 110px 0 70px;
+color:#777777;
+font-weight:bold;
+}
+
+#navi-bar ul li a{
+text-decoration:none;
+color:#777777;
+}
+
+#navi-bar ul li a:hover{
+color:#FF0000;
+}
+
+#navi-bar ul ul{
+display:none;
+}
+
+#navi-bar ul li:hover > ul{
+list-style-type:none;
+position:absolute;
+display:inline-table;
+left:200px;
+top:20px;
+}
+
+#navi-bar ul ul li{
+float:left;
+margin:8px auto;
+color:#777777;
+font-weight:bold;
+font-size:15px;
+}
+
+#navi-bar ul ul li a{
+text-decoration:none;
+color:#777777;
+}
+
+#navi-bar ul ul li a:hover{
+color:#FF0000;
+}
+
+#img-container{
+}
+
+.main-page-boxes{
+float:left;
+}
+
+.main-page-boxes img{
+width:338.5px;
+height:450px;
+-webkit-filter: grayscale(1);
+filter: gray;
+border:none;
+}
+
+.main-page-boxes img:hover{
+width:338.5px;
+height:450px;
+-webkit-filter: grayscale(0);
+}
+
+#bottom-bar{
+width:1354px;
+
+}
+
+#bottom-bar img{
+width:1354px;
+height:60px;
+margin-top:-25px;
+}
+
+#bottom-bar ul{
+list-style-type:none;
+position:relative;
+display:inline-table;
+margin-top:5px;
+}
+
+#bottom-bar ul li{
+float:left;
+margin:-18px 110px 0 70px;
+color:#777777;
+font-weight:bold;
+}
+
+#bottom-bar ul li a{
+text-decoration:none;
+color:#777777;
+}
+
+#bottom-bar ul li a:hover{
+color:#FF0000;
+}
+
+#bottom-bar ul ul{
+display:none;
+}
+
+#bottom-bar ul li:hover > ul{
+list-style-type:none;
+position:absolute;
+display:inline-table;
+left:200px;
+}
+
+#bottom-bar ul ul li{
+float:left;
+margin:8px auto;
+color:#777777;
+font-weight:bold;
+font-size:18px;
+}
+
+#bottom-bar ul ul li a{
+text-decoration:none;
+color:#777777;
+}
+
+#bottom-bar ul ul li a:hover{
+color:#FF0000;
+}
+
+
+/*About Page */
+
+#about-box{
+width:1200px;
+margin:20px auto 50px auto;
+}
+
+#about-box1{
+width:320px;
+float:left;
+margin-right:20px;
+margin-bottom:100px;
+color:#525252;
+font-weight:600;
+font-size:18px;
+text-align:justify;
+}
+
+#about-box1-top{
+color:#000000;
+font-size:25px;
+font-weight:600;
+margin-bottom:30px;
+}
+
+#about-box1-top img{
+width:107px; 
+height:41px;
+margin-right:10px;
+}
+
+
+#vertical-line{
+float:left;
+width:3px;
+height:650px;
+background-color:#999;
+margin-top:80px;
+}
+
+#about-box2{
+width:350px;
+margin-left:30px;
+float:left;
+margin-right:20px;
+margin-bottom:100px;
+color:#525252;
+font-weight:600;
+font-size:18px
+}
+
+#about-box2-top{
+color:#000000;
+font-size:25px;
+font-weight:600;
+margin-bottom:30px;
+}
+
+#about-box2-top img{
+width:89px; 
+height:45px;
+margin-right:25px;
+}
+
+
+#about-box3{
+width:400px;
+float:left;
+margin-left:30px;
+float:left;
+margin-bottom:100px;
+color:#525252;
+font-weight:600;
+font-size:18px;
+text-align:justify;
+}
+
+#about-box3-top{
+color:#000000;
+font-size:25px;
+font-weight:600;
+margin-bottom:30px;
+}
+
+#about-box3-top img{
+width:89px; 
+height:45px;
+margin-right:25px;
+}
+
+
+/*Metal trading*/
+
+#main-wraper{
+width:1250px;
+margin:20px auto;
+}
+
+#left-metal-box{
+width:380px;
+float:left;
+margin-right:30px;
+margin-bottom:100px;
+}
+
+#left-metal-box img{
+width:380px;
+margin:auto;
+}
+
+#left-metal-box p{
+text-align:justify;
+color:#525252;
+font-weight:600;
+}
+
+#metal-top-text{
+font-family: 'Marvel', sans-serif;
+font-size:28px;
+font-weight:bold;
+color:#8b8b8b;
+margin-bottom:10px;
+}
+
+#metal-vertical-line{
+float:left;
+width:3px;
+height:530px;
+background-color:#999;
+margin-top:40px;
+}
+
+#right-metal-box{
+float:left;
+width:810px;
+margin:40px 0px 100px 20px;
+}
+
+#metal-1{
+float:left;
+width:375px;
+}
+
+#metal-1 img{
+float:left;
+width:140px;
+height:120px;
+}
+
+#metal-img1-explain{
+width:225px;
+text-align:justify;
+float:left;
+margin-left:10px;
+}
+
+#metal-img1-explain p{
+font-weight:600;
+font-size:18px;
+margin-top:-5px;
+margin-bottom:4px;
+}
+
+#metal-2{
+float:left;
+width:405px;
+margin-left:25px;
+}
+
+#metal-2 img{
+float:left;
+width:140px;
+height:120px;
+}
+
+#metal-img2-explain{
+width:245px;
+text-align:justify;
+float:left;
+margin-left:10px;
+}
+
+#metal-img2-explain p{
+font-weight:600;
+font-size:18px;
+margin-top:-5px;
+margin-bottom:4px;
+}
+
+#metal-3{
+float:left;
+width:375px;
+margin-top:80px;
+}
+
+#metal-3 img{
+float:left;
+width:140px;
+height:120px;
+}
+
+#metal-img3-explain{
+width:225px;
+text-align:justify;
+float:left;
+margin-left:10px;
+}
+
+#metal-img3-explain p{
+font-weight:600;
+font-size:18px;
+margin-top:-5px;
+margin-bottom:4px;
+}
+
+#metal-4{
+float:left;
+width:405px;
+margin-left:25px;
+margin-top:80px;
+}
+
+#metal-4 img{
+float:left;
+width:140px;
+height:120px;
+}
+
+#metal-img4-explain{
+width:245px;
+text-align:justify;
+float:left;
+margin-left:10px;
+}
+
+#metal-img4-explain p{
+font-weight:600;
+font-size:18px;
+margin-top:-5px;
+margin-bottom:4px;
+}
+
+#metal-5{
+float:left;
+width:375px;
+margin-top:80px;
+}
+
+#metal-5 img{
+float:left;
+width:140px;
+height:120px;
+}
+
+#metal-img5-explain{
+width:225px;
+text-align:justify;
+float:left;
+margin-left:10px;
+}
+
+#metal-img5-explain p{
+font-weight:600;
+font-size:18px;
+margin-top:-5px;
+margin-bottom:4px;
+}
+
+#metal-6{
+float:left;
+width:405px;
+margin-left:25px;
+margin-top:80px;
+}
+
+#metal-6 img{
+float:left;
+width:140px;
+height:110px;
+}
+
+#metal-img6-explain{
+width:245px;
+text-align:justify;
+float:left;
+margin-left:10px;
+}
+
+#metal-img6-explain p{
+font-weight:600;
+font-size:18px;
+margin-top:-5px;
+margin-bottom:4px;
+}
+
+
+/*** Contact Page ****/
+
+#contact-box{
+background:url(img/Map.jpg) no-repeat;
+height:619px;
+margin-top:-30px;
+
+}
+
+#contact-heading{
+width:400px;
+margin:40px auto;
+padding-top:60px;
+font-family:Calibri;
+font-size:28px;
+font-weight:600;
+text-align:center;
+border-bottom:2px solid black;
+}
+
+#contact-box-mini{
+width:449px;
+height:400px;
+float:left;
+margin-top:30px;
+
+}
+
+.contact-mini-head{
+font-weight:bold;
+font-size:23px;
+padding-left:110px;
+}
+
+.contact-mini-text{
+text-align:left;
+padding-left:110px;
+padding-right:40px;
+font-size:18px;
+}
+
+.contact-vertical-line{
+float:left;
+width:3px;
+height:350px;
+margin-bottom:40px;
+background-color:#999;
+}
+
+
+
+
+
